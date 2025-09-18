@@ -1,0 +1,768 @@
+---
+title: What is GIS?
+subtitle: InStats
+format:
+  clean-revealjs:
+    self-contained: true
+author:
+  - name: Dr Nick Bearman
+    email: nick@nickbearman.com
+    affiliations: Freelance GIS Trainer & Consultant | UCL Geography
+date: 07-10-2025
+---
+
+## What is GIS?
+
+### InStats
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Dr Nick Bearman
+
+[nick@nickbearman.com]{style="text-decoration: underline;"}
+
+<font size = 6>
+*GIS Trainer & Consultant (freelance) 
+<br>UCL Geography*
+</font>
+
+7th October 2025
+
+:::
+
+::: {.column width="50%"}
+
+While we wait, please introduce yourself in the chat:
+
+- Name
+
+- Where you are
+
+- What subject / area do you work in?
+
+:::
+
+::::
+
+
+
+
+
+## What is GIS?
+
+- Introduce GIS as a tool in your research
+
+- Examples of GIS
+
+- How useful is it?
+
+- What are it's limitations? 
+
+- Where do we find data?
+
+- Software & common issues
+
+- Questions & case studies
+
+## Intro Poll:
+
+- What is your relationship with GIS?
+	- Not heard of GIS
+	- Heard of but not used GIS before?
+	- Used GIS a little before?
+	- Used GIS regularly?
+
+## What is GIS?
+
+-   Geographical Information Systems
+-   Turning (spatial) data into information ![](images/turning-data-into-information.png)
+-   Using this information to answer (research) questions
+    -   *"Where are groups of patients more likely to be suffering from obesity?"*
+    
+## GIS
+
+-   Nearly all human activities & decisions involve geography
+    -   the "**where?**"
+-   Working with geographic information is **different** to working with an **Excel** file
+-   This is why we need specialized **GIS** software to:
+    -   **organize** and **store**
+    -   **access** and **retrieve**
+    -   **present** and **manage** spatial data
+-   And ultimately to apply to the solution of our **problem**
+
+## GIS can be used in almost any area
+
+### Census 2021
+
+::: columns
+:::: {.column width="50%"}
+
+![](images/census-2021.png)
+
+
+<font size="2">https://www.ons.gov.uk/visualisations/censuspopulationchange/E08000012/</font>
+
+::::
+
+:::: {.column width="50%"}
+
+![](images/census-2021-liverpool.png)
+
+<font size="2">https://www.ons.gov.uk/census/maps/choropleth/population/median-age/median-age/median-age?lad=E08000012</font>
+
+::::
+:::
+
+## Cold War & Health
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/russia-cold-war-maps.png)
+<br>
+Military *How the Soviet Union Secretly Mapped the World*<br>
+<font size = 3>
+Buckingham Palace, London, UK<br>
+The Red Atlas, https://redatlasbook.com/ </font> <br>
+
+:::
+
+::: {.column width="50%"}
+
+![](images/john-hopkins-covid-dashboard.png)
+
+John Hopkins COVID-19 Dashboard
+
+<font size="2"> https://coronavirus.jhu.edu/map.html </font>
+
+:::
+
+::::
+
+## Planning
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/a30-map.png)
+
+:::
+
+::: {.column width="50%"}
+![](images/a30.png)
+
+<font size="2"> https://www.cornwalllive.com/news/cornwall-news/first-chance-see-how-new-1089015</font>
+
+:::
+
+::::
+
+## Politics - US Presidential Election 2020
+
+Biden (306) vs Trump (232)
+
+
+
+![](images/us-election-by-county.png)
+<br> By county
+
+
+
+## Politics - US Presidential Election 2020
+
+Biden (306) vs Trump (232)
+
+![](images/us-election.png)
+<br> By electoral college
+
+
+## Politics - US Presidential Election 2020
+
+Biden (306) vs Trump (232)
+
+![](images/us-election-cartogram.png)
+<br> Cartogram
+
+
+<font size=2>https://en.wikipedia.org/wiki/2020_United_States_presidential_election</font>
+<font size = 2>https://guides.libraries.indiana.edu/c.php?g=1024502&p=7421466</font>
+
+
+
+## Crime
+![](images/crime.png)
+<font size = 2>https://www.ourwatch.org.uk/crime-prevention/crime-prevention/crime-map?address=l17%207aq</font>
+
+## Social Inequality - IMD
+
+![](images/layout-final.png)
+
+
+
+## Weather
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+![](images/weather.png)
+
+<font size="2">Tomorrows Weather - https://dominicroye.github.io/en/2023/tomorrows-weather/?utm_source=puntofisso&utm_medium=email</font>
+
+:::
+
+::: {.column width="50%"}
+
+![](images/met-office-weather-map.png)
+<font size = 3>Weather map from Met Office, 26/10/2023</font>
+
+:::
+
+::::
+
+## Examples of using GIS
+
+1 **making maps**
+
+2 **showing data**
+
+3 **spatial statistics**
+
+4 **spatial analysis**
+
+
+## Making Maps: 
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](images/site-study-map.jfif)
+:::
+
+::: {.column width="30%"}
+
+- Your study area
+- *Getting excited for my first summer of fieldwork with a study site map I created during today's GIS workshop at  #PEEC2022 (Pacific Ecology and Evolution Conference)*
+- Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/1505394280805720064)
+:::
+
+::::
+
+## Showing Data: 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/census-2021.png)
+:::
+
+::: {.column width="50%"}
+
+- Choropleth maps
+- Rates of disease
+- % Married, Census data, 2011
+:::
+
+::::
+
+## Spatial Statistics:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/lisa.png)
+
+<font size=5>
+*Map of Greater Manchester, UK, showing clustering areas of high deprivation (red) and low deprivation (blue) (measured using IMD).*
+</font>
+
+:::
+
+::: {.column width="50%"}
+
+- Is space important? (Spatial autocorrelation / Moran's I)
+- Clustering? (Local Moran's I)
+- Regression? (What is driving these relationships?)
+  - GWR - geographically weigthed regression
+  - General Additive Models - Geographical Gaussian Process
+  - Spatial regression models - Spatail Lag and Spatial Error
+
+
+:::
+
+::::
+
+
+
+## Spatial Analysis: 
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+- **Where** meets x criteria?
+
+- **Which site** meets criteria for a new hospital?
+
+- How can **public transport** help address deprivation?
+
+- Where should we **route** a water pipe?
+
+:::
+
+::: {.column width="60%"}
+![](images/mcda.png)
+:::
+
+
+
+::::
+
+## GIS can be used in almost any area
+
+- Census
+- Military
+- Politics
+- Health
+- Crime
+- Social inequality
+- Weather
+
+*Including some you might not think of:*
+
+##
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Mining
+
+![](images/arcgis-mining-map.jpg)
+
+<font size=2>https://www.gislounge.com/gis-underground-mining/</font>
+:::
+
+::: {.column width="50%"}
+
+### Social Networks
+
+![](images/social-networks.png)
+<font size=2>https://gistbok.ucgis.org/bok-topics/2019-quarter-02/social-networks</font>
+:::
+
+::::
+
+## Ethnography
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+![](images/ethnography1.png)
+<font size=5>Working environment</font>
+
+<font size=2>https://cuny.manifoldapp.org/read/ethnography-made-simple-68f98a5d-5a01-4233-b2dd-4c669d80ee81/section/3133b2c3-ac40-4c7c-bbdc-b5fcbd538925</font>
+
+:::
+
+::: {.column width="45%"}
+
+![](images/ethnography2.png)
+<font size=5>Career journey</font>
+
+![](images/ethnography3.png)
+<font size=5>Organisational map</font>
+
+:::
+
+::::
+
+## Poll - GIS
+
+<p>Have you worked with data with location? (address, POI, city name, country name, coordinates, etc.)
+
+- Yes
+- No
+
+<p>Did you know what GIS was before this session?
+
+- Yes
+- No
+
+## GIS: Systems and Science
+
+::: fragment
+-   Geographical Information **Systems**
+    -   The methods, process and technology we use
+:::
+
+::: fragment
+-   Geographical Information **Science** <!-- .element: class="fragment" -->
+    -   The science behind the technology
+    -   Including development of new technology, <br> methods and processes
+:::
+
+::: fragment
+![](images/ijgis.png){.absolute bottom="0" right="0" width="250"}
+:::
+
+::: fragment
+-   Geographic*al* / Geographic
+:::
+
+::: fragment
+-   Geographic Data Science
+:::
+
+
+
+
+## Things to remember!
+
+- Like *"correlation <> causation!"*
+
+- Be critical of maps - they are not what they seem
+
+![](images/covid-example.png)
+
+::: footer
+
+James Cheshire (UCL) wrote an article about the press conference announcing the second lockdown in the UK (31/10/2020)
+
+https://theconversation.com/next-slide-please-data-visualisation-expert-on-whats-wrong-with-the-uk-governments-coronavirus-charts-149329
+
+https://jcheshire.com/resources/different-maps-same-data/
+
+:::
+
+## Things to know
+
+### Projections and Coordinate Systems
+
+- How we show data
+
+- Many many different types
+
+## Projections
+
+-   Projection - going from a sphere to a flat surface
+
+![](images/orange.png)
+
+<font size="2">http://www.hdwallpapersos.com/orange-fruit-hd-wallpapers.html</font>
+
+
+##
+
+![](images/ch2-projections.png)
+
+## Mercator
+
+![](images/mercator-2.png)
+
+##
+
+![](images/ch2-projections.png)
+
+
+## Coordinate Systems
+
+How we specify location
+
+- Latitude and Longitude (WGS 1984)
+
+- *52°N 37' 30.32'' (52.6250) 1°E 14' 2.05'' (1.2339)*
+
+![](images/lat-lng.png)
+
+## Coordinate Systems
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/bng.png)
+:::
+
+::: {.column width="50%"}
+
+- British National Grid
+
+- *Easting: 619301* 
+
+- *Northing: 307416*
+
+:::
+
+::::
+
+
+## Strengths and Weaknesses
+
+- You need **data** to be able to do anything
+- Availability of data is key
+- As is quality of data, who collected it, bias, etc.
+
+-
+
+- Can be quite quantitative - not everything can be quantified!
+- Some qualitative GIS, but very much the junior partner
+- Participatory GIS an interesting area
+
+## Data
+
+- where does it come from?
+- **spatial** & **non-spatial** data
+ - **spatial** - the geographic areas
+ - **attribute data** - the spreadsheet
+
+## Data: sources
+
+- Spatial data can come from various locations
+- Ordnance Survey / OS Open Data
+- Census & Census Boundary
+  - https://borders.ukdataservice.ac.uk/
+- EuroStat
+- Free GIS Data, Robert Wilson
+    - http://freegisdata.rtwilson.com/ 
+- Geoboundaries.org
+- OpenStreetMap.org
+- Web Search – GIS data
+
+
+## Data: Spatial Units
+
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+- Many many different spatial units
+- Countries, counties
+- States, municipalities, wards,
+- NUTS (EU)
+- Local authorities, GOR
+- MSOA, LSOA, OA, Census block, 
+- Addresses
+
+
+
+:::
+
+::: {.column width="75%"}
+
+![](images/uk-stats-geographies.png)
+
+:::
+
+<font size="2">[Hierarchical Representation of UK Statistical Geographies (August 2022)](https://geoportal.statistics.gov.uk/documents/ons::hierarchical-representation-of-uk-statistical-geographies-august-2022-1/explore)</font>
+
+::::
+
+## Data: Census Data
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/census-2021.png)
+:::
+
+::: {.column width="50%"}
+
+- Population
+- Age groups
+- Gender
+- Marital status
+- Ethnicity
+- Health
+- ....
+- by OA, LSOA, MSOA, ...
+
+:::
+
+::::
+
+
+## Data: IMD - Index of Multiple Deprivation
+
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- A measure of deprivation
+- 2019 (England)
+- 2019 (Wales) 
+- 2020 (Scotland)
+- Rank, score & decile
+
+![](images/imd.png)
+
+:::
+
+::: {.column width="40%" .smaller}
+
+England: 7 domains
+
+- Income
+- Employment
+- Health
+- Education
+- Access to Services &  Housing
+- Crime
+- Living Environment
+
+:::
+
+
+
+::::
+
+##
+
+
+
+![](images/layout-final.png)
+
+
+
+
+##
+
+![](images/joining-1.png)
+
+------------------------------------------------------------------------
+
+![](images/joining-2.png)
+
+------------------------------------------------------------------------
+
+![](images/joining-3.png)
+
+------------------------------------------------------------------------
+
+![](images/joining-4.png)
+
+
+
+## Poll - Software
+
+Have you used any GIS software before (even just a bit)? 
+
+- ArcGIS / ArcMap / ArcGIS Pro
+- QGIS
+- R
+- Python 
+- Something else (please put in chat)
+- None at all
+
+## GIS Software
+
+![](images/gis-software.png)\
+
+- **ArcGIS Pro** most popular commercial
+
+- **QGIS** most popular open source
+
+- **R / RStudio** open source, command line based
+
+- **Python** also useful for spatial analysis of large data
+
+- Reproducible analysis becoming more important
+
+<center> *All can be useful* </center>
+
+
+
+
+## Common issues in GIS
+	
+- **Coordinate systems**
+  - "9 out of 10 problems when using GIS results from using the wrong coordinate system"
+
+- Finding (the right) **data**
+  - "You can easily spend 50% of the time of your project looking for and bringing in data"
+
+- **Postcodes/Zip codes** as geocoding
+  - "WC1E 6BT" is a great way of asking people where they live, a residential postcode unit is about 10 - 15 houses
+  - But (e.g. in Wales) this can vary from 0.6 ha (a football field) to 5404 ha (20 sq miles, ~ Ealing)
+
+## New developments
+
+- **AI**
+
+  - Some automated interpreting of satellite data
+  - Houses / buildings / water / fields
+
+- **LLM / ChatGPT / Gemini**
+
+  - Clear learning / assessment challenges
+  - Also clear learning potential
+  - "How do I do GIS analysis..."
+  - "Where can I find data on..."
+  - Potentially really useful for writing code
+  - But also potential for generating gibberish
+
+
+	
+	
+## Moving forward: Books
+- [GIS: Research Methods](https://www.nickbearman.me.uk/gis-research-methods/) | *First chapter free*
+- [Cartography: An Introduction](https://www.cartography.org.uk/product-page/cartography-an-introduction-second-edition)
+- [Discover QGIS 3.x](https://locatepress.com/book/dq32) 
+- [Using R as a GIS](https://locatepress.com/book/rgis1) | *first chapter free*
+  
+  
+![](images/gis-research-methods-front-cover.png){.absolute bottom="50" right="900" width="175"}
+![](images/cartography-book.png){.absolute bottom="50" right="600" width="250"}
+
+
+![](images/discover-qgis-2nd.png){.absolute bottom="50" right="350" width="200"}
+![](images/rgis1.png){.absolute bottom="50" right="100" width="200"}
+
+
+## Moving forward
+
+- [Intro to QGIS](https://instats.org/seminar/introduction-to-qgis-and-spatial-data) Oct 2025
+- [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis) Oct 2025
+- [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-1) Nov 2025
+- [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis) Nov 2025
+- [Spatial Stats](https://instats.org/seminar/spatial-statistics-in-r) R Dec 2025
+
+- Data | [Free GIS Data](https://freegisdata.rtwilson.com/) | [GeoBoundaries](https://geoboundaries.org)
+- Looking at other people's maps 
+
+![](images/2019-06-13 12.26.53-students-at-desk_linkedin.jpg)
+
+## #30DayMapChallenge
+
+![](images/30daymapchallenge1.png){.absolute bottom="70" right="700" width="450"}
+
+![](images/30daymapchallenge2.png){.absolute bottom="70" right="100" width="450"}
+
+https://30daymapchallenge.com/
+
+## Thank you :-)
+
+- What questions do you have?
+  
+## Wrap-up
+
+- Post any questions on the forum
+
+- Remember the courses:
+
+  - [Intro to QGIS](https://instats.org/seminar/introduction-to-qgis-and-spatial-data) Oct 2025
+  - [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis) Oct 2025
+  - [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-1) Nov 2025
+  - [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis) Nov 2025
+  - [Spatial Stats](https://instats.org/seminar/spatial-statistics-in-r) R Dec 2025
+
+
+- Also welcome to email [nick@nickbearman.com]{style="text-decoration: underline;"}
+
