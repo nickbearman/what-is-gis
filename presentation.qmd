@@ -42,6 +42,8 @@ While we wait, please introduce yourself in the chat:
 
 - What subject / area do you work in?
 
+- What would you like to know after this seminar?
+
 :::
 
 ::::
@@ -58,13 +60,13 @@ While we wait, please introduce yourself in the chat:
 
 - How useful is it?
 
-- What are it's limitations? 
+- What are its limitations? 
 
 - Where do we find data?
 
 - Software & common issues
 
-- Questions & case studies
+- Questions
 
 ## Intro Poll:
 
@@ -85,7 +87,7 @@ While we wait, please introduce yourself in the chat:
 
 -   Nearly all human activities & decisions involve geography
     -   the "**where?**"
--   Working with geographic information is **different** to working with an **Excel** file
+-   Working with geographic information is **different** to working with an **Excel** or **CSV** file
 -   This is why we need specialized **GIS** software to:
     -   **organize** and **store**
     -   **access** and **retrieve**
@@ -287,9 +289,9 @@ Biden (306) vs Trump (232)
 - Is space important? (Spatial autocorrelation / Moran's I)
 - Clustering? (Local Moran's I)
 - Regression? (What is driving these relationships?)
-  - GWR - geographically weigthed regression
+  - GWR - geographically weighted regression
   - General Additive Models - Geographical Gaussian Process
-  - Spatial regression models - Spatail Lag and Spatial Error
+  - Spatial regression models - Spatial Lag and Spatial Error
 
 
 :::
@@ -390,11 +392,6 @@ Biden (306) vs Trump (232)
 - Yes
 - No
 
-<p>Did you know what GIS was before this session?
-
-- Yes
-- No
-
 ## GIS: Systems and Science
 
 ::: fragment
@@ -409,15 +406,26 @@ Biden (306) vs Trump (232)
 :::
 
 ::: fragment
+ ![](images/ijgis-1987.jpg){.absolute bottom="0" right="250" width="250"}
 ![](images/ijgis.png){.absolute bottom="0" right="0" width="250"}
+<font size="2">Thanks to Nick Tate for the IGJIS 1987 photo</font>
 :::
 
-::: fragment
--   Geographic*al* / Geographic
+## GIS: Terminology
+
+::: {.fragment}
+- Geographic*al* / Geographic 
+:::
+ 
+::: {.fragment}
+- Geographic Data Science
 :::
 
-::: fragment
--   Geographic Data Science
+::: {.fragment}
+- GeoAI
+  - Geographical Analysis
+  - LLM / ChatGPT / assistant
+    - [Kue Plugin: An AI Chatbot for QGIS, LinkedIn Post Feb 2025](https://www.linkedin.com/posts/jvdkwast_exploring-the-kue-plugin-an-ai-chatbot-for-activity-7286496279147237377-9KpP/)
 :::
 
 
@@ -470,6 +478,11 @@ https://jcheshire.com/resources/different-maps-same-data/
 
 ![](images/ch2-projections.png)
 
+## 
+
+![](images\why-all-world-maps-are-wrong.png)
+
+[YouTube - Why all world maps are wrong](https://www.youtube.com/watch?v=kIID5FDi2JQ)
 
 ## Coordinate Systems
 
@@ -528,7 +541,7 @@ How we specify location
 - Census & Census Boundary
   - https://borders.ukdataservice.ac.uk/
 - EuroStat
-- Free GIS Data, Robert Wilson
+- Free GIS Data, Robin Wilson
     - http://freegisdata.rtwilson.com/ 
 - Geoboundaries.org
 - OpenStreetMap.org
@@ -669,7 +682,7 @@ Have you used any GIS software before (even just a bit)?
 
 - **QGIS** most popular open source
 
-- **R / RStudio** open source, command line based
+- **R / RStudio** open source, script based
 
 - **Python** also useful for spatial analysis of large data
 
@@ -690,7 +703,7 @@ Have you used any GIS software before (even just a bit)?
 
 - **Postcodes/Zip codes** as geocoding
   - "WC1E 6BT" is a great way of asking people where they live, a residential postcode unit is about 10 - 15 houses
-  - But (e.g. in Wales) this can vary from 0.6 ha (a football field) to 5404 ha (20 sq miles, ~ Ealing)
+  - But (e.g. in Wales) this can vary from 0.6 ha (a football field or smaller) to 5404 ha (20 sq miles, ~ London br. Ealing)
 
 ## New developments
 
@@ -699,7 +712,7 @@ Have you used any GIS software before (even just a bit)?
   - Some automated interpreting of satellite data
   - Houses / buildings / water / fields
 
-- **LLM / ChatGPT / Gemini**
+- **LLM / ChatGPT / Bard**
 
   - Clear learning / assessment challenges
   - Also clear learning potential
@@ -712,7 +725,7 @@ Have you used any GIS software before (even just a bit)?
 	
 	
 ## Moving forward: Books
-- [GIS: Research Methods](https://www.nickbearman.me.uk/gis-research-methods/) | *First chapter free*
+- [GIS: Research Methods](https://www.nickbearman.me.uk/gis-research-methods/) | *first chapter free*
 - [Cartography: An Introduction](https://www.cartography.org.uk/product-page/cartography-an-introduction-second-edition)
 - [Discover QGIS 3.x](https://locatepress.com/book/dq32) 
 - [Using R as a GIS](https://locatepress.com/book/rgis1) | *first chapter free*
@@ -732,7 +745,7 @@ Have you used any GIS software before (even just a bit)?
 - [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis) Oct 2025
 - [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-1) Nov 2025
 - [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis) Nov 2025
-- [Spatial Stats](https://instats.org/seminar/spatial-statistics-in-r) R Dec 2025
+- [Spatial Stats in R](https://instats.org/seminar/spatial-statistics-in-r) Dec 2025
 
 - Data | [Free GIS Data](https://freegisdata.rtwilson.com/) | [GeoBoundaries](https://geoboundaries.org)
 - Looking at other people's maps 
@@ -741,11 +754,11 @@ Have you used any GIS software before (even just a bit)?
 
 ## #30DayMapChallenge
 
-![](images/30daymapchallenge1.png){.absolute bottom="70" right="700" width="450"}
-
-![](images/30daymapchallenge2.png){.absolute bottom="70" right="100" width="450"}
-
 https://30daymapchallenge.com/
+
+![](images/30daymapchallenge1.png){.absolute bottom="70" right="700" width="350"}
+
+![](images/30daymapchallenge2.png){.absolute bottom="70" right="100" width="350"}
 
 ## Thank you :-)
 
@@ -761,7 +774,7 @@ https://30daymapchallenge.com/
   - [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis) Oct 2025
   - [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-1) Nov 2025
   - [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis) Nov 2025
-  - [Spatial Stats](https://instats.org/seminar/spatial-statistics-in-r) R Dec 2025
+  - [Spatial Stats in R](https://instats.org/seminar/spatial-statistics-in-r) Dec 2025
 
 
 - Also welcome to email [nick@nickbearman.com]{style="text-decoration: underline;"}
