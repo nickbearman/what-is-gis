@@ -49,6 +49,28 @@ While we wait, please introduce yourself in the chat:
 ::::
 
 
+## <!-- Start slide -->
+
+![](images/InStatsStart.png)
+
+## <!-- Welcome slide -->
+
+![](images/WelcomeToInStats.png)
+
+## What is GIS?
+
+### InStats
+
+Dr Nick Bearman
+
+[nick@nickbearman.com]{style="text-decoration: underline;"}
+
+<font size = 6>
+*GIS Trainer & Consultant (freelance) 
+<br>UCL Geography*
+</font>
+
+7th October 2025
 
 
 
@@ -68,7 +90,7 @@ While we wait, please introduce yourself in the chat:
 
 - Questions
 
-## Intro Poll:
+## Poll:
 
 - What is your relationship with GIS?
 	- Not heard of GIS
@@ -766,6 +788,12 @@ https://30daymapchallenge.com/
 ![](images/30daymapchallenge1.png){.absolute bottom="70" right="700" width="350"}
 
 ![](images/30daymapchallenge2.png){.absolute bottom="70" right="100" width="350"}
+
+## Thank you :-)
+
+## <!-- InStatsStop -->
+
+![](images/InStatsStop.png)
 
 ## Thank you :-)
 
