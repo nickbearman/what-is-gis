@@ -1,0 +1,19 @@
+Polls used in What is GIS presentation
+
+What is your relationship with GIS?
+Not heard of GIS
+Heard of but not used GIS before
+Used GIS a little before 
+Used GIS regularly
+
+Have you worked with data with location? (address, POI, city name, country name, coordinates, etc.)
+Yes
+No
+
+Have you used any GIS software before (even just a bit)? 
+ArcGIS / ArcMap / ArcGIS Pro
+QGIS
+R
+Python 
+Something else (please put in chat)
+None at all

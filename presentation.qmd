@@ -8,7 +8,7 @@ author:
   - name: Dr Nick Bearman
     email: nick@nickbearman.com
     affiliations: Freelance GIS Trainer & Consultant | UCL Geography
-date: 07-10-2025
+date: 10-07-2025
 ---
 
 ## What is GIS?
@@ -72,9 +72,9 @@ While we wait, please introduce yourself in the chat:
 
 - What is your relationship with GIS?
 	- Not heard of GIS
-	- Heard of but not used GIS before?
-	- Used GIS a little before?
-	- Used GIS regularly?
+	- Heard of but not used GIS before
+	- Used GIS a little before
+	- Used GIS regularly
 
 ## What is GIS?
 
@@ -82,6 +82,7 @@ While we wait, please introduce yourself in the chat:
 -   Turning (spatial) data into information ![](images/turning-data-into-information.png)
 -   Using this information to answer (research) questions
     -   *"Where are groups of patients more likely to be suffering from obesity?"*
+    -   *"How have housing conditions changed over the past 10 years?"*
     
 ## GIS
 
@@ -94,9 +95,7 @@ While we wait, please introduce yourself in the chat:
     -   **present** and **manage** spatial data
 -   And ultimately to apply to the solution of our **problem**
 
-## GIS can be used in almost any area
-
-### Census 2021
+## GIS can be used in almost any area - **Census**
 
 ::: columns
 :::: {.column width="50%"}
@@ -198,7 +197,7 @@ Biden (306) vs Trump (232)
 ![](images/crime.png)
 <font size = 2>https://www.ourwatch.org.uk/crime-prevention/crime-prevention/crime-map?address=l17%207aq</font>
 
-## Social Inequality - IMD
+## Social Inequality - Index of Multiple Deprivation
 
 ![](images/layout-final.png)
 
@@ -237,19 +236,19 @@ Biden (306) vs Trump (232)
 4 **spatial analysis**
 
 
-## Making Maps: 
+## Making Maps: Your study area 
 
 :::: {.columns}
 
-::: {.column width="70%"}
+::: {.column width="65%"}
 ![](images/site-study-map.jfif)
 :::
 
-::: {.column width="30%"}
+::: {.column width="35%"}
 
-- Your study area
-- *Getting excited for my first summer of fieldwork with a study site map I created during today's GIS workshop at  #PEEC2022 (Pacific Ecology and Evolution Conference)*
-- Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/1505394280805720064)
+*Getting excited for my first summer of fieldwork with a study site map I created during today's GIS workshop at  #PEEC2022 (Pacific Ecology and Evolution Conference)*
+
+Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/1505394280805720064)
 :::
 
 ::::
@@ -267,6 +266,7 @@ Biden (306) vs Trump (232)
 - Choropleth maps
 - Rates of disease
 - % Married, Census data, 2011
+- ...
 :::
 
 ::::
@@ -289,9 +289,11 @@ Biden (306) vs Trump (232)
 - Is space important? (Spatial autocorrelation / Moran's I)
 - Clustering? (Local Moran's I)
 - Regression? (What is driving these relationships?)
+<font size=6>
   - GWR - geographically weighted regression
   - General Additive Models - Geographical Gaussian Process
   - Spatial regression models - Spatial Lag and Spatial Error
+  </font>
 
 
 :::
@@ -306,7 +308,7 @@ Biden (306) vs Trump (232)
 
 ::: {.column width="40%"}
 
-- **Where** meets x criteria?
+- **Where** meets *x* criteria?
 
 - **Which site** meets criteria for a new hospital?
 
@@ -360,7 +362,7 @@ Biden (306) vs Trump (232)
 
 ::::
 
-## Ethnography
+### Ethnography
 
 :::: {.columns}
 
@@ -504,11 +506,17 @@ How we specify location
 
 ::: {.column width="50%"}
 
-- British National Grid
+- **British National Grid**
 
 - *Easting: 619301* 
 
 - *Northing: 307416*
+
+- **UTM** 
+
+- *Global system*
+
+- *World split into zones*
 
 :::
 
@@ -524,7 +532,7 @@ How we specify location
 -
 
 - Can be quite quantitative - not everything can be quantified!
-- Some qualitative GIS, but very much the junior partner
+- Some qualitative GIS, but a bit the junior partner
 - Participatory GIS an interesting area
 
 ## Data
@@ -532,7 +540,7 @@ How we specify location
 - where does it come from?
 - **spatial** & **non-spatial** data
  - **spatial** - the geographic areas
- - **attribute data** - the spreadsheet
+ - **non-spatial / attribute data** - the spreadsheet
 
 ## Data: sources
 
@@ -553,11 +561,11 @@ How we specify location
 
 :::: {.columns}
 
-::: {.column width="25%"}
+::: {.column width="35%"}
 
-- Many many different spatial units
-- Countries, counties
-- States, municipalities, wards,
+- Many different spatial units
+- Countries
+- Counties, states, municipalities, wards,
 - NUTS (EU)
 - Local authorities, GOR
 - MSOA, LSOA, OA, Census block, 
@@ -567,7 +575,7 @@ How we specify location
 
 :::
 
-::: {.column width="75%"}
+::: {.column width="65%"}
 
 ![](images/uk-stats-geographies.png)
 
@@ -609,7 +617,7 @@ How we specify location
 ::: {.column width="60%"}
 
 - A measure of deprivation
-- 2019 (England)
+- 2019 (England) *+ 2025*
 - 2019 (Wales) 
 - 2020 (Scotland)
 - Rank, score & decile
@@ -714,8 +722,7 @@ Have you used any GIS software before (even just a bit)?
 
 - **LLM / ChatGPT / Bard**
 
-  - Clear learning / assessment challenges
-  - Also clear learning potential
+  - Clear learning potential
   - "How do I do GIS analysis..."
   - "Where can I find data on..."
   - Potentially really useful for writing code
