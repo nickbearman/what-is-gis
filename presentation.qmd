@@ -8,7 +8,7 @@ author:
   - name: Dr Nick Bearman
     email: nick@nickbearman.com
     affiliations: Freelance GIS Trainer & Consultant | UCL Geography
-date: 10-07-2025
+date: 08-07-2026
 ---
 
 ## What is GIS?
@@ -28,7 +28,7 @@ Dr Nick Bearman
 <br>UCL Geography*
 </font>
 
-7th October 2025
+8th July 2026
 
 :::
 
@@ -70,7 +70,7 @@ Dr Nick Bearman
 <br>UCL Geography*
 </font>
 
-7th October 2025
+8th July 2026
 
 
 
@@ -206,8 +206,37 @@ Biden (306) vs Trump (232)
 
 Biden (306) vs Trump (232)
 
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/us-election-by-county.png)
+<br> By county
+:::
+
+::: {.column width="50%"}
+![](images/us-election.png)
+<br> By electoral college
+:::
+
+::::
+
+## Politics - US Presidential Election 2020
+
+Biden (306) vs Trump (232)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/us-election-by-county.png)
+<br> By county
+:::
+
+::: {.column width="50%"}
 ![](images/us-election-cartogram.png)
 <br> Cartogram
+:::
+
+::::
 
 
 <font size=2>https://en.wikipedia.org/wiki/2020_United_States_presidential_election</font>
@@ -258,7 +287,7 @@ Biden (306) vs Trump (232)
 4 **spatial analysis**
 
 
-## Making Maps: Your study area 
+## 1. Making Maps: Your study area 
 
 :::: {.columns}
 
@@ -275,7 +304,7 @@ Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/15053942808
 
 ::::
 
-## Showing Data: 
+## 2. Showing Data: 
 
 :::: {.columns}
 
@@ -293,7 +322,7 @@ Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/15053942808
 
 ::::
 
-## Spatial Statistics:
+## 3. Spatial Statistics:
 
 :::: {.columns}
 
@@ -301,7 +330,7 @@ Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/15053942808
 ![](images/lisa.png)
 
 <font size=5>
-*Map of Greater Manchester, UK, showing clustering areas of high deprivation (red) and low deprivation (blue) (measured using IMD).*
+*Map of Greater Manchester, UK, showing clustering areas of high deprivation (blue) and low deprivation (red) (measured using IMD).*
 </font>
 
 :::
@@ -324,7 +353,7 @@ Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/15053942808
 
 
 
-## Spatial Analysis: 
+## 4. Spatial Analysis: 
 
 :::: {.columns}
 
@@ -437,24 +466,57 @@ Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/15053942808
 <font size="2">Thanks to Nick Tate for the IGJIS 1987 photo</font>
 :::
 
-## GIS: Terminology
+## GIS: GeoAI
 
-::: {.fragment}
-- Geographic*al* / Geographic 
-:::
- 
-::: {.fragment}
-- Geographic Data Science
-:::
+## GIS: GeoAI
 
-::: {.fragment}
-- GeoAI
-  - Geographical Analysis
-  - LLM / ChatGPT / assistant
-    - [Kue Plugin: An AI Chatbot for QGIS, LinkedIn Post Feb 2025](https://www.linkedin.com/posts/jvdkwast_exploring-the-kue-plugin-an-ai-chatbot-for-activity-7286496279147237377-9KpP/)
-:::
+![](images/russian-dolls-ai-1.jpg)
+
+## GIS: GeoAI
+
+![](images/russian-dolls-ai-2.jpg)
+
+## GIS: GeoAI
+
+![](images/russian-dolls-ai-3.jpg)
 
 
+## GIS: GeoAI
+
+![](images/russian-dolls-ai-4.jpg)
+
+## GIS: GeoAI
+
+![](images/russian-dolls-ai-5.jpg)
+
+## GIS: GeoAI
+
+![](images/russian-dolls-ai-6.jpg)
+
+## GIS: GeoAI
+
+
+- Geographical Analysis
+    - Some improvements from existing statistical methods
+    - Interesting [QGIS GeoAI Plugin Jan 2026](https://www.linkedin.com/posts/milan-janosov_geoai-activity-7418204192130973696-wTWQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASXC6wBRv0w74LkW4jBxSVP-9ldgbYpLRk) and [Review](https://www.linkedin.com/posts/jvdkwast_review-of-the-qgis-geoai-plugin-activity-7408545135950675968-0l5R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASXC6wBRv0w74LkW4jBxSVP-9ldgbYpLRk)
+- LLM / ChatGPT / assistant
+  - [Kue Plugin: An AI Chatbot for QGIS, Feb 2025](https://www.linkedin.com/posts/jvdkwast_exploring-the-kue-plugin-an-ai-chatbot-for-activity-7286496279147237377-9KpP/)
+  - Using (any) chatbot for coding
+  - [Posit AI in RStudio - subscription](https://posit.co/blog/introducing-ai-in-rstudio/)
+  - [Generative AI Tools for Quantitative Research: A Practical Guide, David Bann and Liam Wright - PAYG Positron Claude](https://repository.ncrm.ac.uk/resources/online/all/ai_tools_quantitative_research)
+
+
+## GeoAI: But
+
+- What are we using AI for? 
+- AI is a tool - how we use it is important
+  - To assist is great
+  - To help us learn is great
+  - To do boring work for is great
+  - To do complex work for us ?
+  - To learn for us? 
+
+- Using AI to do learning for us is like someone helping you lift dumbbells in the gym - it's not the way to build strength
 
 
 ## Things to remember!
@@ -580,14 +642,13 @@ How we specify location
 - Web Search – GIS data
 
 
-## Data: Spatial Units
+## Data: Many Different Spatial Units
 
 
 :::: {.columns}
 
 ::: {.column width="35%"}
 
-- Many different spatial units
 - Countries
 - Counties, states, municipalities, wards,
 - NUTS (EU)
@@ -641,10 +702,11 @@ How we specify location
 ::: {.column width="60%"}
 
 - A measure of deprivation
-- 2019 (England) *+ 2025*
-- 2019 (Wales) 
+- 2025 (England)
+- 2025 (Wales) 
 - 2020 (Scotland)
-- Rank, score & decile
+- 2016 (Northern Ireland)
+- Rank & decile
 
 ![](images/imd.png)
 
@@ -772,11 +834,10 @@ Have you used any GIS software before (even just a bit)?
 
 ## Moving forward
 
-- [Intro to QGIS](https://instats.org/seminar/introduction-to-qgis-and-spatial-data) Oct 2025
-- [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis) Oct 2025
-- [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-1) Nov 2025
-- [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis) Nov 2025
-- [Spatial Stats in R](https://instats.org/seminar/spatial-statistics-in-r) Dec 2025
+- [Intro to QGIS](https://instats.org/seminar/introduction-to-qgis-and-spatial-data-20) *4-5 Aug 2026*
+- [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis-20) *11-12 Aug 2026*
+- [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-4) *18-19 Aug 2026*
+- [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis-20) *25-26 Aug 2026*
 
 - Data | [Free GIS Data](https://freegisdata.rtwilson.com/) | [GeoBoundaries](https://geoboundaries.org)
 - Looking at other people's maps 
