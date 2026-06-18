@@ -516,7 +516,7 @@ Rebecca Hansen, [Twitter](https://twitter.com/RebeccaLGHansen/status/15053942808
   - To do complex work for us ?
   - To learn for us? 
 
-- Using AI to do learning for us is like someone helping you lift dumbbells in the gym - it's not the way to build strength
+- ["Using AI to do learning for us is like someone helping you lift dumbbells in the gym - it's not the way to build strength"](https://www.linkedin.com/feed/update/urn:li:ugcPost:7470478454514290688?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7470478454514290688%2C7471450862574419968%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287471450862574419968%2Curn%3Ali%3AugcPost%3A7470478454514290688%29)
 
 
 ## Things to remember!
@@ -868,11 +868,10 @@ https://30daymapchallenge.com/
 
 - Remember the courses:
 
-  - [Intro to QGIS](https://instats.org/seminar/introduction-to-qgis-and-spatial-data) Oct 2025
-  - [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis) Oct 2025
-  - [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-1) Nov 2025
-  - [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis) Nov 2025
-  - [Spatial Stats in R](https://instats.org/seminar/spatial-statistics-in-r) Dec 2025
+  - [Intro to QGIS](https://instats.org/seminar/introduction-to-qgis-and-spatial-data-20) *4-5 Aug 2026*
+  - [Advanced QGIS](https://instats.org/seminar/advanced-qgis-spatial-analysis-20) *11-12 Aug 2026*
+  - [Intro to R](https://instats.org/seminar/introduction-to-spatial-data-and-r-as-a-4) *18-19 Aug 2026*
+  - [Advanced R](https://instats.org/seminar/advanced-r-for-spatial-analysis-20) *25-26 Aug 2026*
 
 
 - Also welcome to email [nick@nickbearman.com]{style="text-decoration: underline;"}
