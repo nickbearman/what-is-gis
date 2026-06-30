@@ -94,7 +94,7 @@ Dr Nick Bearman
 
 - What is your relationship with GIS?
 	- Not heard of GIS
-	- Heard of but not used GIS before
+	- Heard of GIS but not used it before
 	- Used GIS a little before
 	- Used GIS regularly
 
@@ -110,11 +110,12 @@ Dr Nick Bearman
 
 -   Nearly all human activities & decisions involve geography
     -   the "**where?**"
+-   GIS is bit like a spreadsheet, row ~ an geographic area
+    -   But it is also so much more than this
 -   Working with geographic information is **different** to working with an **Excel** or **CSV** file
 -   This is why we need specialized **GIS** software to:
-    -   **organize** and **store**
-    -   **access** and **retrieve**
-    -   **present** and **manage** spatial data
+    -   **access** and **relate**
+    -   **change** and **visualise** spatial data
 -   And ultimately to apply to the solution of our **problem**
 
 ## GIS can be used in almost any area - **Census**
@@ -666,7 +667,7 @@ How we specify location
 
 :::
 
-<font size="2">[Hierarchical Representation of UK Statistical Geographies (December 2022)](https://geoportal.statistics.gov.uk/documents/e1e916620c1a4794b7422a4e2f99943e/explore)</font>
+<font size="2">[Hierarchical Representation of UK Statistical Geographies (December 2025)](https://geoportal.statistics.gov.uk/documents/763339ad98ce4cb78d53f509000876b6/about)</font>
 
 ::::
 
@@ -829,7 +830,7 @@ Have you used any GIS software before (even just a bit)?
 
 
 ![](images/discover-qgis-2nd.png){.absolute bottom="50" right="350" width="200"}
-![](images/rgis1.png){.absolute bottom="50" right="100" width="200"}
+![](images/rgis-front-cover.png){.absolute bottom="50" right="100" width="200"}
 
 
 ## Moving forward
@@ -854,17 +855,23 @@ https://30daymapchallenge.com/
 
 ## Thank you :-)
 
+- Please do remember to rate the seminar and give me feedback!
+
 ## <!-- InStatsStop -->
 
 ![](images/InStatsStop.png)
 
 ## Thank you :-)
 
+- Please do remember to rate the seminar and give me feedback!
+
 - What questions do you have?
   
 ## Wrap-up
 
 - Post any questions on the forum
+
+- Please do remember to rate the seminar and give me feedback!
 
 - Remember the courses:
 

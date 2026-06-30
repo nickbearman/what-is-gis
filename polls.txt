@@ -2,7 +2,7 @@ Polls used in What is GIS presentation
 
 What is your relationship with GIS?
 Not heard of GIS
-Heard of but not used GIS before
+Heard of GIS but not used it before
 Used GIS a little before 
 Used GIS regularly
 
