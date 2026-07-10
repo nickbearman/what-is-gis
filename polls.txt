@@ -10,7 +10,7 @@ Have you worked with data with location? (address, POI, city name, country name,
 Yes
 No
 
-Have you used any GIS software before (even just a bit)? 
+Have you used any GIS software before (even just a bit)? (multiple choice)
 ArcGIS / ArcMap / ArcGIS Pro
 QGIS
 R
